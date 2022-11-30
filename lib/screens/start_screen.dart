@@ -2,6 +2,8 @@ import 'dart:ui';
 
 import 'package:bottom_sheet/screens/background_svg_screen.dart';
 import 'package:bottom_sheet/screens/modal_bottom_sheet_screen.dart';
+import 'package:bottom_sheet/screens/svg_provider_screen.dart';
+import 'package:bottom_sheet/screens/svg_to_flutter_screen.dart';
 import 'package:flutter/material.dart';
 
 class StartScreen extends StatelessWidget {
@@ -26,13 +28,13 @@ class StartScreen extends StatelessWidget {
               ),
               _buildPurpleButton(
                 context,
-                screen: ModalBottomSheetScreen(),
-                text: "Modal Bottom Sheet",
+                screen: SVGToFlutterScreen(),
+                text: "SVG to Flutter Screen",
               ),
               _buildPurpleButton(
                 context,
-                screen: ModalBottomSheetScreen(),
-                text: "Modal Bottom Sheet",
+                screen: SVGProviderScreen(),
+                text: "SVG Provider",
               ),
               _buildPurpleButton(
                 context,

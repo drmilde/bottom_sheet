@@ -10,7 +10,7 @@ class BackgroundSvgScreen extends StatelessWidget {
       body: Container(
         height: MediaQuery.of(context).size.height,
         width: MediaQuery.of(context).size.width,
-        child: SvgPicture.asset("assets/images/path388.svg"),
+        child: SvgPicture.asset("assets/images/path448.svg"),
       ),
     );
   }
